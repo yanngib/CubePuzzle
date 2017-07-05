@@ -60,7 +60,7 @@ public class Cube {
 			piecesOnFacet[node.facetIndex] = node.orientedPiece;
 			pieces[node.orientedPiece.pieceIndex].used = true;
 			
-			System.out.format("node(%d, %d, %d)\n", node.facetIndex, node.orientedPiece.pieceIndex, node.orientedPiece.rotation);
+			//System.out.format("node(%d, %d, %d)\n", node.facetIndex, node.orientedPiece.pieceIndex, node.orientedPiece.rotation);
 			
 			switch (node.facetIndex) {
 			case 0: 
