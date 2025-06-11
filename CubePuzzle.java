@@ -40,27 +40,24 @@ public class CubePuzzle {
  * 
  */
 	
-	
-	
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		
-		PuzzlePiece[] pieces = {
+		Cube myCube = new Cube(new PuzzlePiece[] {
 				new PuzzlePiece(0b010010110010), 
 				new PuzzlePiece(0b000010110110),
 				new PuzzlePiece(0b000110111101),
 				new PuzzlePiece(0b101001010011),
 				new PuzzlePiece(0b010001100010),
 				new PuzzlePiece(0b001010011001)				
-				};
+				});
 		
-		Cube myCube = new Cube();
+		List<PuzzleSolution> solutions = myCube.Solve();
+
+		solutions.forEach(solution -> solution.Print());
 		
-		List<PuzzleSolution> solutions = myCube.Solve(pieces);
-		
-		for (PuzzleSolution solution : solutions) {
-			solution.Print();
-		}
+		// for (PuzzleSolution solution : solutions) {
+		// 	solution.Print();
+		// }
 
 	}
 	

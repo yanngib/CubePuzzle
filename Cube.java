@@ -1,6 +1,8 @@
 import java.util.*;
 
 public class Cube {
+
+	private PuzzlePiece[] pieces;
 	
 //	//cube topology is defined by its edges joining its facets
 //	FacetEdge[] edges = new FacetEdge[]{
@@ -18,7 +20,11 @@ public class Cube {
 //		new FacetEdge(0, 2, 3, 0)  // E11
 //	};
 
-	public List<PuzzleSolution> Solve(PuzzlePiece[] pieces) {
+	public Cube(PuzzlePiece[] puzzlePieces) {
+		pieces = puzzlePieces;
+	}
+
+	public List<PuzzleSolution> Solve() {
 		
 		List<PuzzleSolution> solutions = new ArrayList<PuzzleSolution>();
 		
