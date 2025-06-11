@@ -54,15 +54,6 @@ public class CubePuzzle {
 		List<PuzzleSolution> solutions = myCube.Solve();
 
 		solutions.forEach(solution -> solution.Print());
-		
-		// for (PuzzleSolution solution : solutions) {
-		// 	solution.Print();
-		// }
-
 	}
-	
-
-
-
 }
 
