@@ -4,9 +4,9 @@ A brute-force cube puzzle solver written in Java.
 
 ## The Puzzle
 
-![](IMG_8340.jpg)
-![](IMG_8341.jpg)
-![](IMG_8342.jpg)
+<img src="IMG_8340.jpg" width="50%">
+<img src="IMG_8341.jpg" width="50%">
+<img src="IMG_8342.jpg" width="50%">
 
 ## Overview
 
